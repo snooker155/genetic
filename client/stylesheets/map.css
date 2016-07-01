@@ -1,0 +1,51 @@
+#world_map {
+    background: #333;
+    color: #fff;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+
+
+#map_rect {
+  fill: none;
+  pointer-events: all;
+}
+
+.graph_line {
+    color: black;
+}
+
+
+
+/*.border {
+    fill: none;
+    stroke: #d9edf7;
+    stroke-width: 1px;
+}*/
+
+.regions.selected {
+    /*fill: #fff;*/
+    opacity: 1;
+    stroke: lightblue;
+    transition: all 0.2s ease;
+}
+
+.regions.selected:hover {
+    /*fill: lightblue;*/
+    opacity: 0.8;
+    stroke: #d9edf7;
+    stroke-width: 1.5px;
+}
+
+a {
+	color: #666;
+}
+
+a:hover{
+	color: #999;
+}
+
+p { text-align: center; }
+
+.startup > li.active > a, .startup > li.active > a:hover, .startup > li.active > a:focus {
+	background-color: #1ab394;
+}
